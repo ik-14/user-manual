@@ -1,0 +1,114 @@
+body{
+  margin: 0;
+  font-family:'JetBrains Mono', monospace;
+}
+
+header{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  background-image: url(backgroundimg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+}
+
+header h1{
+  color: white;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.321);
+  padding: 40px;
+}
+
+
+main{
+  display: grid;
+  grid-template-columns:25vw 50vw 25vw;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 1.8rem;
+  height: 100vh;
+}
+
+@media(max-width:1024px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+#section1{
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: #e3a982;
+}
+
+#section2{
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: #6a9581;
+}
+
+#section3{
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: #33454F;
+}
+
+.para-list{
+  font-size:1.5rem;
+}
+
+li{
+  margin-top: 15px;
+}
+
+.container{
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 32vw 36vw 32vw;
+}
+
+.t1{
+  
+  margin: 5px;
+  padding: 5px;
+}
+
+.t1 img{
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.t2{
+  
+  margin: 5px;
+  padding: 5px;
+  height: fit-content;
+}
+.t2 img{
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.t3{
+  
+  margin: 5px;
+  padding: 5px;
+}
+
+.t3 img{
+  height: 100vh;
+  width: 100%;
+}
+
